@@ -1,6 +1,9 @@
-
+require 'pry'
 # RegEx Lab
 
+def starts_with_a_vowel?(word)
+  word.match(/^[aeiouAEIOU]\w+/) ? true : false
+end
 ## Learning Goals
 
 - Use RegEx to detect patterns in strings
